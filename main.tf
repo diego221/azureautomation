@@ -36,13 +36,4 @@ resource "azurerm_sql_database" "sqldatabase" {
     storage_account_access_key_is_secondary = true
     retention_in_days                       = 6
   }
-
-tags = {
-        Environment = "Test"
-        Business_Unit = "Digital Factory"
-        Team = "INFRA"
-        Owner = "JEAN MICHEL ROQUE"
-
-    }
-
 }
